@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> HomeBase - Login </title>
+
+    <!-- Basic Meta Tags. -->
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#E18499">
+    <meta name="keywords" content="HomeBase">
+    <meta name="description" content="Orgainze beyond.">
+    <meta name="subject" content="HomeBase App">
+    <meta name="copyright" content="HomeBase App 2021">
+    <meta name="language" content="EN">
+    <meta name="robots" content="index,follow">
+    <meta name="revised" content="Monday, April 7th, 2021, 11:24 PM">
+    <meta name="Classification" content="Application">
+    <meta name="author" content="HomeBase">
+    <meta name="reply-to" content="dev@kura.gq">
+    <meta name="owner" content="HomeBase">
+    <meta name="url" content="http://home-base.gq">
+    <meta name="identifier-URL" content="http://home-base.gq">
+    <meta name="directory" content="submission">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta name="subtitle" content="Orgainze beyond.">
+    <meta name="target" content="all">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="DC.title" content="HomeBase">
+    <meta name="ResourceLoaderDynamicStyles" content="">
+    <meta name="medium" content="app">
+    <meta name="pageKey" content="guest-home">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- OpenGraph Meta Tags. -->
+    <meta name="og:title" content="HomeBase">
+    <meta name="og:type" content="Application">
+    <meta name="og:url" content="http://home-base.gq">
+    <meta name="og:image" content="https://hacking-with-ht.ml/homebase/logo.png">
+    <meta name="og:site_name" content="HomeBase App">
+    <meta name="og:description" content="Orgainze beyond.">
+    <meta name="application-name" content="HomeBase">
+    <meta name="og:email" content="dev@kura.gq">
+    <meta name="og:latitude" content="32.935840">
+    <meta name="og:longitude" content="-96.954210">
+    <meta name="og:locality" content="Dallas">
+    <meta name="og:region" content="TX">
+    <meta name="og:postal-code" content="75063">
+    <meta name="og:country-name" content="USA">
+
+    <!-- Apple Meta Tags. -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="https://hacking-with-ht.ml/homebase/logo.png" />
+    <link rel="stylesheet" href="./css/login.css">
+
+    <script src="./js/preload.js"></script>
+</head>
+
+<body>
+    <!-- Content container. -->
+    <div class="container">
+        <div class="window">
+            <div class="overlay"></div>
+            <div class="content">
+                <br />
+                <!-- App name. -->
+                <div class="welcome"> HomeBase </div>
+                <!-- User notify. -->
+                <div class="subtitle"> Thank you for using our serivce! Please login below. </div>
+                <!-- User input data. -->
+                <div class="input-fields">
+                    <input type="text" placeholder="Username" class="input-line full-width" id="username"></input>
+                    <br />
+                    <br />
+                    <input type="password" placeholder="Password" class="input-line full-width" id="password"></input>
+                    <input tabindex="-1" type="checkbox" onclick="showHide('password')"> Show Password </input>
+                </div>
+                <br />
+                <br />
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <!-- Init login. -->
+                <div><button class="ghost-round full-width" id="account-init"> Login </button></div>
+                <!-- Change to signup. -->
+                <div class="spacing" onclick="location.href = `signup.html`"> or <span class="highlight"> Sign Up
+                    </span>
+                </div>
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
+
+<!-- This is protected code, see https://kura.gq?to=share for more information. -->
