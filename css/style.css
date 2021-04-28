@@ -80,7 +80,7 @@ h4 {
     width: 60px;
     height: 4px;
     display: block;
-    background-color: #fd8917;
+    background-color: #E3839B;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     border-radius: 5px;
@@ -163,7 +163,7 @@ h4 {
 }
 
 .navbar .navbar-brand span {
-    color: #7289DA;
+    color: #E3839B;
 }
 
 .navbar .navbar-collapse {
@@ -217,7 +217,7 @@ h4 {
 }
 
 .navbar-light .navbar-brand {
-    color: #7289DA;
+    color: #E3839B;
     transition: all .2s ease-in-out;
 }
 
@@ -226,7 +226,7 @@ h4 {
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #4E5D94;
+    color: #7289DA;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -378,215 +378,6 @@ h4 {
 }
 
 #download .price-table:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-3px);
-}
-
-
-/*=======================================================
-			VIDEO POP UP:
-========================================================*/
-
-#video-popup {
-    padding: 100px 0;
-}
-
-#video-popup .video-box {
-    margin: 0 auto;
-    text-align: center;
-}
-
-#video-popup .video-box .play-button a {
-    background: #fff;
-    position: absolute;
-    left: calc(50% - 40px);
-    top: calc(50% - 40px);
-    width: 80px;
-    height: 80px;
-    line-height: 6.8;
-    border-radius: 100%;
-    transition: all .2s ease-in-out;
-    z-index: 2;
-}
-
-#video-popup .video-box .play-button a i {
-    color: #fd8917;
-    font-size: 40px;
-}
-
-#video-popup .video-box .play-button a:hover {
-    background: #fd8917;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-3px);
-}
-
-#video-popup .video-box .play-button a:hover i {
-    color: #fff;
-}
-
-#video-popup .video-box .waves-block {
-    position: absolute;
-    width: 384px;
-    width: 24rem;
-    height: 384px;
-    height: 24rem;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-#video-popup .video-box .waves-block .waves {
-    position: absolute;
-    width: 384px;
-    width: 24rem;
-    height: 384px;
-    height: 24rem;
-    background: rgba(255, 255, 255, 0.4);
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    border-radius: 320px;
-    background-clip: padding-box;
-    -webkit-animation: waves 3s ease-in-out infinite;
-    animation: waves 3s ease-in-out infinite;
-}
-
-#video-popup .video-box .waves-block .wave-1 {
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
-}
-
-#video-popup .video-box .waves-block .wave-2 {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-}
-
-#video-popup .video-box .waves-block .wave-3 {
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-}
-
-@keyframes waves {
-    0% {
-        -webkit-transform: scale(0.2, 0.2);
-        transform: scale(0.2, 0.2);
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    }
-    50% {
-        opacity: 0.9;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-    }
-    100% {
-        -webkit-transform: scale(0.9, 0.9);
-        transform: scale(0.9, 0.9);
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    }
-}
-
-/*=======================================================
-			APP SCREENSHOTS:
-========================================================*/
-
-#screenshots {
-    padding: 100px 0;
-    text-align: center;
-}
-
-#screenshots .title-container {
-    margin: 0 auto;
-}
-
-#screenshots .item {
-    margin: 40px 20px;
-}
-
-#screenshots .item img {
-    box-shadow: 0 3px 15px rgba(76, 76, 77, 0.15);
-}
-
-#screenshots .owl-theme .owl-controls .owl-page span {
-    display: block;
-    width: 12px;
-    height: 12px;
-    margin: 5px 7px;
-    filter: Alpha(Opacity=50);
-    opacity: 0.5;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    border: 2px solid #068BEA;
-    background: transparent;
-}
-
-#screenshots .owl-theme .owl-controls .owl-page.active span,
-#screenshots .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background: #068BEA;
-}
-
-/*=======================================================
-			TEAM:
-========================================================*/
-
-#team {
-    padding: 120px 0;
-    text-align: center;
-}
-
-#team .title-container {
-    margin: 40px auto;
-}
-
-#team .member img {
-    width: 250px;
-    margin: 0 auto;
-}
-
-#team .member h4 {
-    margin-top: 15px;
-}
-
-#team .member h4:after {
-    content: "";
-    position: relative;
-    left: 50%;
-    bottom: 0;
-    width: 60px;
-    height: 2px;
-    display: block;
-    background-color: #068BEA;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    border-radius: 5px;
-    margin: 15px 0;
-}
-
-#team .member .social-media {
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#team .member .social-media li {
-    display: inline-block;
-    background: #068BEA;
-    transition: all .2s ease-in-out;
-    border-radius: 100%;
-    line-height: 2.5;
-    margin: 0 8px 8px 0;
-    width: 40px;
-    height: 40px;
-}
-
-#team .member .social-media li a {
-    color: #fff;
-}
-
-#team .member .social-media li:hover {
-    cursor: pointer;
-    background: #fd8917;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     transform: translateY(-3px);
 }
