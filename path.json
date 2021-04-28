@@ -12,5 +12,5 @@
     "js/index.js",
     "js/login.js",
     "js/signup.js",
-    "js/preload.css"
+    "js/preload.js"
 ]
