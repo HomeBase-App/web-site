@@ -1,0 +1,16 @@
+[
+    "account.html",
+    "index.html",
+    "login.html",
+    "signup.html",
+    "css/account.css",
+    "css/index.css",
+    "css/login.css",
+    "css/signup.css",
+    "css/style.css",
+    "js/account.js",
+    "js/index.js",
+    "js/login.js",
+    "js/signup.js",
+    "js/preload.css"
+]
