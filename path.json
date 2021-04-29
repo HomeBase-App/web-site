@@ -11,6 +11,6 @@
     "js/account.js",
     "js/index.js",
     "js/login.js",
-    "js/signup.js",
-    "js/preload.js"
+    "js/preload.js",
+    "js/signup.js"
 ]
