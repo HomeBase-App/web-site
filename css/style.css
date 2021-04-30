@@ -94,6 +94,14 @@ h4 {
     font-weight: 500;
 }
 
+.sub1 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 500;
+    font-style: italic;
+}
+
 /*=======================================================
 			BUTTONS:
 ========================================================*/
