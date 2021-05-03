@@ -170,8 +170,8 @@ h4 {
     color: #fff;
 }
 
-.navbar .navbar-brand span {
-    color: #E3839B;
+.navbar .navbar-brand img {
+    max-width: 250px;
 }
 
 .navbar .navbar-collapse {
